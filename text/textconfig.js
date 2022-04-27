@@ -14,6 +14,7 @@ const jsonRootWrapperName = "computerParts";
 const TextLayerService = require(`${basePath}/text/textlayerservice`);
 const textLayerService = new TextLayerService();
 
+// Replace the name of the layers with yours
 const layers = [
   textLayerService.addLayer(jsonRootWrapperName, "Case", false),
   textLayerService.addLayer(jsonRootWrapperName, "CPU", false),

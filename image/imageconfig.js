@@ -22,6 +22,8 @@ Create required layers:
   For each layer, call 'addLayer' with the id and optionally the positioning and size
   The id would be the name of the folder in your input directory, e.g. 'ball' for ./input/ball
 */
+
+// Replace the name of the layers with yours
 const layers = [
   imageLayerService.addLayer("Background", rarityWeights, { x: 0, y: 0 }, { width: width, height: height }),
   imageLayerService.addLayer("Skins", rarityWeights),
